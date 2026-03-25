@@ -1,0 +1,54 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Greetings", "Is anyone there?"],
+      "responses": ["Hello! How can I assist you with your college-related queries today?", "Hi there! What can I help you with?", "Greetings! How's your day going?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "I'm leaving", "Have a good day"],
+      "responses": ["Goodbye! Feel free to return if you have more questions.", "Have a great day! See you soon.", "Bye! Best of luck with your studies."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+      "responses": ["You're very welcome!", "Happy to help!", "Anytime! Let me know if you need anything else."]
+    },
+    {
+      "tag": "admission",
+      "patterns": ["How can I get admission?", "What is the admission process?", "Tell me about admissions", "How to apply for a course?", "When do admissions start?"],
+      "responses": ["Admissions typically open in June. You can apply through our online portal on the college website.", "The admission process involves filling out an online form followed by document verification.", "You need to submit your high school transcripts and ID proof to start the admission process."]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["What courses are available?", "List of departments", "Which degrees do you offer?", "Tell me about the curriculum", "Are there any computer science courses?"],
+      "responses": ["We offer undergraduate and postgraduate degrees in Engineering, Science, Commerce, and Arts.", "Our popular departments include Computer Science, Mechanical Engineering, and Business Administration.", "You can find the full list of courses in the 'Academics' section of our website."]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["What is the fee structure?", "How much does a course cost?", "Tell me about tuition fees", "Are there any hidden charges?", "How to pay fees?"],
+      "responses": ["The fee structure varies by course. For Engineering, it's approximately $5000 per semester.", "Tuition fees can be paid online via the student portal or at the college office.", "Detailed fee breakdowns for each department are available in the prospectus."]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": ["Are there any scholarships?", "How to apply for financial aid?", "Scholarship eligibility", "Do you offer merit-based scholarships?", "Financial support for students"],
+      "responses": ["Yes, we offer merit-based and need-based scholarships. Criteria include academic performance and family income.", "To apply for a scholarship, submit the financial aid form during the admission process.", "Top 5% of students in each department receive a 50% tuition waiver."]
+    },
+    {
+      "tag": "hostel",
+      "patterns": ["Is there a hostel facility?", "Tell me about accommodation", "Do you have dorms?", "Hostel fees", "What are the hostel rules?"],
+      "responses": ["Yes, we have separate hostels for boys and girls with 24/7 security and Wi-Fi.", "Hostel fees are approximately $1200 per year, including food.", "Our hostels offer single, double, and triple sharing rooms."]
+    },
+    {
+      "tag": "library",
+      "patterns": ["Tell me about the library", "Library timings", "How many books are there?", "Can I borrow books online?", "Is there a digital library?"],
+      "responses": ["Our library is open from 8 AM to 10 PM. It houses over 50,000 books and journals.", "Yes, we have a digital library access for all registered students.", "You can borrow up to 5 books at a time for a duration of 14 days."]
+    },
+    {
+      "tag": "placement",
+      "patterns": ["What are the placement opportunities?", "Top recruiters", "Average salary package", "Highest package", "Tell me about the placement cell"],
+      "responses": ["Our college has an excellent placement record with companies like Google, Microsoft, and TCS.", "The average salary package last year was $8 LPA, with the highest reaching $45 LPA.", "The placement cell provides training and mock interviews to help students prepare."]
+    }
+  ]
+}
